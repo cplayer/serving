@@ -29,15 +29,14 @@
   version = "v0.1.0"
 
 [[projects]]
-  digest = "1:c1e8c027918e8a7cf79327f35ca2919cb997ecaa928116e3c2b470d06d0e9c12"
+  digest = "1:c3fd5ddaad733530174bba5dd787d98a45d181851a95a0b7362be7bce7144f56"
   name = "contrib.go.opencensus.io/exporter/stackdriver"
   packages = [
     ".",
     "monitoredresource",
   ]
   pruneopts = "NUT"
-  revision = "bf39ce456bd8c6e2e3e37ef9775ed8b10628feca"
-  version = "v0.12.5"
+  revision = "59d068f8d8ff5b653916aa30cdc4e13c7f15d56e"
 
 [[projects]]
   digest = "1:7b5f423f5b0dd3dfa32a19a6183b0ab9129bff371ebf3f9efae32f87e4986d8f"
@@ -1693,7 +1692,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:2d7762240c800e50191b8fb5f79c04338851a3a8777267d4e095e37adf1983d2"
+  digest = "1:4e0f31138ef3d52cc28c266525bd170c7269cafe0ba9f593ddfbfab05f0fef82"
   name = "knative.dev/caching"
   packages = [
     "pkg/apis/caching",
@@ -1716,11 +1715,11 @@
     "pkg/client/listers/caching/v1alpha1",
   ]
   pruneopts = "T"
-  revision = "3feb9f69e85e24e8092bc454adc132949b4ee1bb"
+  revision = "4f108c76775571efa3963bf3478a0febbe7b57e1"
 
 [[projects]]
-  branch = "master"
-  digest = "1:09a00f21eaeeae387d973fd3f82cf06a8627f88566b4e6811ba97003dd207eac"
+  branch = "release-0.11"
+  digest = "1:21f168f0b1eed03be1e28d463b35f23683697554be0e473f498318c9984efcc4"
   name = "knative.dev/pkg"
   packages = [
     "apis",
@@ -1836,11 +1835,11 @@
     "websocket",
   ]
   pruneopts = "T"
-  revision = "944655d6cc17ceb861b0764046c56a465fe5bb75"
+  revision = "94a34e416c4486376a21d934f4bfebd730c82c12"
 
 [[projects]]
   branch = "master"
-  digest = "1:3db2f286ff5594db6719ba2dc05c48af66064a856548ff91f5205bfc4b6e02d6"
+  digest = "1:1445abe0f0e20f7660b640a34ada67f18c983561d492383ea1d033722ed20ed4"
   name = "knative.dev/test-infra"
   packages = [
     "scripts",
@@ -1853,7 +1852,7 @@
     "tools/dep-collector",
   ]
   pruneopts = "UT"
-  revision = "2c4cd9df33c648a86d95bdd4119386cba04cde56"
+  revision = "9363d2f4cafd2ad3c1bfc925f447c91a1776be00"
 
 [[projects]]
   digest = "1:fef5992ddf85e9ccad899b11338339858936a10fbce96b9d5c43767669d95398"
